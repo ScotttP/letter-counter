@@ -1,7 +1,7 @@
 const letterCount = document.querySelector('#letterCount');
 const clearCount = document.querySelector('#clearCount');
 
-document.getElementById('letterCount').innerText = "Letter Count: " + `${finalLetterCount = 0}`;
+document.getElementById('letterCount').innerText = `${finalLetterCount = 0}`;
 
 clearCount.addEventListener('click', () => {
     clear();
@@ -10,10 +10,10 @@ clearCount.addEventListener('click', () => {
 function strCount (strChar) {
     stringLetters= strChar.replace(/[^a-zA-Z]/g, "");
     finalLetterCount = stringLetters.length
-    document.getElementById('letterCount').innerText = "Letter Count: " + `${finalLetterCount}`;
+    document.getElementById('letterCount').innerText = `${finalLetterCount}`;
 }
 
 function clear (){
     document.getElementById('inputBox').value = "";
-    document.getElementById('letterCount').innerText = "Letter Count: " + `${finalLetterCount = 0 }`;
+    document.getElementById('letterCount').innerText = `${finalLetterCount = 0 }`;
 } 

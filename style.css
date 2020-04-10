@@ -2,6 +2,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #f0f0f0;
+    
 }
 
 .divContainer {
@@ -18,12 +20,59 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    border: 5px black solid;
+    border: 5px #364f6b solid;
+    border-radius: 15px;
     width: 300px;
     min-height: 100px;
     height: 250px;
+    background-color: #fc5184c5 ;
+    font: #364f6b;
     
 }
+
+button {
+    min-width: 90px;
+    width: 15vw;
+    max-width: 120px;
+    min-height: 20px;
+    height: 15vh;
+    max-height: 25px;
+    border: 1px #364f6b solid;
+    border-radius: 5px;
+    font-size: 15px;
+    outline: none;
+    color: #093669;
+    background-color: #f0f0f0;
+    transition: 1.1s;
+}
+
+button:hover {
+    background-color: #43dde6;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
 #inputBox {
-    
+    border: 1px #364f6b solid;
+    border-radius: 25px;
+    min-height: 26px;
+    height: 3vh;
+    max-height: 200px;
+    min-width: 160px;
+    width: 15vw;
+    max-width: 200px;
+    outline: none;
+    font-size: 1rem;
+    line-height: 20px;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+#letterCount{
+    color: #093669;
+    font-size: 40px;
+}
+#letterCountText{
+    color: #093669;
+    font-size: 30px;
 }
