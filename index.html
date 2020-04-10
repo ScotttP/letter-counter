@@ -10,10 +10,10 @@
     <div class="divContainer">
        <div class="contentContainer">
            <form>
-               <input id="inputBox" type="text" placeholder="Type Some Words!">
+               <input id="inputBox" type="text" autocomplete="off" placeholder="Type Some Words!" onkeyup="strCount(this.value)">
            </form>
-           <div id='letterCount'>Letter Count: 0</div>
-           <button id="clearCount">Reset Counter</button>
+           <div id='letterCount'></div>
+           <button id="clearCount">Reset</button>
        </div>
 
     </div>
